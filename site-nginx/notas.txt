@@ -1,0 +1,8 @@
+docker build -t site-nginx:v1 .  
+
+docker run -d -p 8080:80 site-nginx:v1 
+
+
+docker build -t site-nginx:v2 .  
+
+docker run -d -p 8080:80 site-nginx:v2 
